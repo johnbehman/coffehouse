@@ -1,14 +1,16 @@
-.list 
-{display: flex; flex-wrap: wrap;
-    font-size: medium;
-    color: blueviolet;
-display: flex; flex-wrap: wrap-reverse;
-align-items: center;
+.pageHeader {text-align: center;
+
+}
+.list {display: flex; flex-wrap: wrap;
+justify-content: space-around;
 }
 
-.shop {border: 4px solid black;
-width: 25%;
-margin-bottom: 1em;
-background-color: rgb(96, 65, 19);}
-.pageHeader {font-style: italic;
-color: brown;}
+
+
+.shop {border: 3px solid rgb(78, 32, 232);
+    width: 300px;
+    margin: 5px;
+    background-color: rgb(137, 170, 158);
+    
+
+}
